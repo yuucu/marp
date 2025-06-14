@@ -1,0 +1,21 @@
+{
+  "name": "marp-ai-slides",
+  "version": "1.0.0",
+  "description": "AI-powered Marp slide generation without Cursor dependency",
+  "scripts": {
+    "preview": "marp --preview input/*.md",
+    "build": "marp --pdf input/*.md",
+    "watch": "marp --watch --preview input/*.md",
+    "serve": "marp --server input/*.md"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  },
+  "keywords": [
+    "marp",
+    "markdown",
+    "presentation",
+    "slides",
+    "ai"
+  ]
+}
